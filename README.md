@@ -1,4 +1,6 @@
 # Manual Transformer
+<img src="banner.png" alt="drawing" width="500"/>
+
 
 Autograd makes you lazy! Lets build a Transformer completely manually! This is a precursor to [MyTorch](https://github.com/priyammaz/MyTorch/tree/main) which aims to be a fully Autograd based system. Although autograd is powerful, we can (and should) be performing known composites of operations manually for efficiency! This is also an opportunity to understand all the formulas (forward and backward) for all the different ops we commonly come across in Transformers!
 
@@ -28,10 +30,9 @@ This will just keep generating a bunch of text so you can see some poorly genera
 python inference.py
 ```
 
-
 ### Derivations
 
-You will find all of the main derivations for each operation in [```derivations.pdf```]() if you want to see the details of why we do all this!
+You will find all of the main derivations for each operation in [```derivations.pdf```](https://github.com/priyammaz/ManualTransformer/blob/main/derivations.pdf) if you want to see the details of why we do all this!
 
 
 ### To-Do
