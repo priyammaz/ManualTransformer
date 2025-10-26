@@ -1,5 +1,5 @@
 # Manual Transformer
-<img src="banner.png" alt="drawing" width="500"/>
+<img src="banner.png" alt="drawing" width="800"/>
 
 
 Autograd makes you lazy! Lets build a Transformer completely manually! This is a precursor to [MyTorch](https://github.com/priyammaz/MyTorch/tree/main) which aims to be a fully Autograd based system. Although autograd is powerful, we can (and should) be performing known composites of operations manually for efficiency! This is also an opportunity to understand all the formulas (forward and backward) for all the different ops we commonly come across in Transformers!
